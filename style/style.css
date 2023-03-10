@@ -1,6 +1,6 @@
 .attribution {
     font-size: 11px;
-    margin-top: 40px;
+    margin-top: 100px;
 }
     
 .attribution a {
@@ -16,7 +16,8 @@ body {
     font-family: 'Outfit', sans-serif;
     background-color:rgb(214, 226, 240);
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    padding: 80px 0;
 }
 
 img {
@@ -27,12 +28,15 @@ img {
 h3 {
     color: rgb(31, 50, 81);
     font-weight: 700;
-    margin: 20px auto;
-    width: 230px;
+    margin: 20px 15px;
 }
 
-.container {
+#card {
     margin: auto;
+}
+
+.text-card {
+    width: 250px;
 }
 
 main {
@@ -48,7 +52,6 @@ p {
     font-size: 15px;
     font-weight: 400;
     text-align: center;
-    width: 250px;
     margin: auto;
     margin-bottom: 20px;
 }
