@@ -1,0 +1,54 @@
+.attribution {
+    font-size: 11px;
+    margin-top: 40px;
+}
+    
+.attribution a {
+    color: rgb(62, 82, 163);
+}
+
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color:rgb(214, 226, 240);
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    border-radius: 10px;
+    width: 250px;
+}
+
+h3 {
+    color: rgb(31, 50, 81);
+    font-weight: 700;
+    margin: 20px auto;
+    width: 230px;
+}
+
+.container {
+    margin: auto;
+}
+
+main {
+    background-color: white;
+    padding: 15px;
+    border-radius: 20px;
+    display: inline-block;
+    margin: auto;
+}
+
+p {
+    color: rgb(123, 135, 157);
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    width: 250px;
+    margin: auto;
+    margin-bottom: 20px;
+}
